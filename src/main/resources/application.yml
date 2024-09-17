@@ -1,0 +1,8 @@
+spring:
+  application.name: emb
+
+openai:
+  token: ${OPEN_AI_TOKEN:default_value_if_not_set}
+
+server:
+  port: 8093
